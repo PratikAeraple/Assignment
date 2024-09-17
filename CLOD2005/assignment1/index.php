@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group F - Assignment Title</title>
+    <title>Group F - In-Class Lab-1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="header-container">
             <h1>Welcome to Group F's Assignment</h1>
-            <h2>Assignment Title: [Your Assignment Title Here]</h2>
+            <h2>Assignment Title: In-Class Lab-1</h2>
         </div>
     </header>
     
@@ -23,7 +23,7 @@
         <section class="gallery">
             <h3>Gallery</h3>
             <div class="gallery-container">
-                <img src="images/graphic1.jpg" alt="Graphic 1">
+                <img src="https://fcit.usf.edu/matrix/wp-content/uploads/2017/01/DanceBot-3-LG.gif" alt="Graphic 1">
             </div>
         </section>
     </main>
