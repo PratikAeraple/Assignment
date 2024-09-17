@@ -52,7 +52,74 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
-    bottom: 0;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets (iPads) and larger mobile devices */
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    .gallery-container img {
+        width: 150px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+    
+    header h2 {
+        font-size: 1.1em;
+    }
+
+    .gallery-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gallery-container img {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    footer {
+        position: relative;
+        padding: 15px 0;
+    }
+}
+
+/* For smaller mobile devices (like phones) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    
+    header h2 {
+        font-size: 1em;
+    }
+
+    .about, .gallery {
+        padding: 10px;
+    }
+
+    .gallery-container img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    footer {
+        padding: 10px 0;
+        font-size: 0.9em;
+    }
 }
